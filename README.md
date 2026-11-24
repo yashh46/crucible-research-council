@@ -58,7 +58,7 @@ Then type `/crucible-research-council <your question>`, or just ask Claude to "d
 **Codex (manual)**:
 
 ```sh
-cp -R crucible-research-council/skills/crucible-research-council ~/.claude/skills/crucible-research-council
+cp -R crucible-research-council/skills/crucible-research-council ~/.agents/skills/crucible-research-council
 ```
 
 **Claude.ai**: zip the `skills/crucible-research-council` folder and upload it from the Skills section of Claude's settings. In a plain chat with no sub-agents, Crucible plays the four roles one after another and labels them as not independent.
