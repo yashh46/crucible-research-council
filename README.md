@@ -43,13 +43,13 @@ If you don't pick a mode, Crucible starts with Quick and only moves up to Counci
 **Skills CLI** (Claude Code and Codex):
 
 ```sh
-npx skills add yashh46/crucible --skill crucible-research-council
+npx skills add yashh46/crucible-research-council --skill crucible-research-council 
 ```
 
 **Claude Code (manual)**:
 
 ```sh
-git clone https://github.com/yashh46/crucible.git
+git clone https://github.com/yashh46/crucible-research-council.git
 cp -R crucible/skills/crucible-research-council ~/.claude/skills/crucible-research-council
 ```
 
